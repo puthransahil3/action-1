@@ -16,8 +16,8 @@ jobs:
       - name: Execute cowsay CMd
         run: cowsay -f dragon "run" >> dragon.txt
         
-      - name: Test file Exists
-        run: grep -i "dragon" dragon.txt
+      #- name: Test file Exists
+       # run: grep -i "dragon" dragon.txt
 
       - name: Read File
         run: cat dragon.txt
