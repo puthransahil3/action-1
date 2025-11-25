@@ -13,4 +13,4 @@ jobs:
       - name: Executing shel script
         run: |
           chmod +x ascii.sh
-          ./ascii.sh
+          bash ./ascii.sh
